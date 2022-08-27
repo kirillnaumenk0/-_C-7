@@ -31,7 +31,7 @@ void FillArray(int[,] matr)
 
 void Average(int[,] matr)
 {
-
+    Console.Write("Среднее арифметическое каждого столбца: ");
     for (int j = 0; j < 4; j++)
     {
         int sum = 0;
